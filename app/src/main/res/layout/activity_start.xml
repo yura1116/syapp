@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="让耳朵感受声音的美妙"
+            android:text="让耳朵感受声音的美妙222"
             android:gravity="center"
             android:textSize="20dp"
             android:textColor="@color/white">

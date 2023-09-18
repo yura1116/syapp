@@ -8,7 +8,6 @@ import android.widget.TabHost;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.syapp.LoginFragment;
@@ -25,12 +24,6 @@ public class MyselfFragment extends Fragment {
     private TabHost tabHost;
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        MyselfViewModel myselfViewModel =
-                new ViewModelProvider(this).get(MyselfViewModel.class);
-
-        binding = FragmentMyselfBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
-
         View rootView = inflater.inflate(R.layout.fragment_myself, container, false);
 
         tabLayout = rootView.findViewById(R.id.tabLayout);
@@ -43,16 +36,12 @@ public class MyselfFragment extends Fragment {
         adapter.addFragment(new LoginFragment(), "登录");
         adapter.addFragment(new RegFragment(), "注册");
 
-
         // 设置ViewPager的适配器
         viewPager.setAdapter(adapter);
 
         // 将TabLayout与ViewPager关联
         tabLayout.setupWithViewPager(viewPager);
 
-
-        /*final TextView textView = binding.textMyself;
-        myselfViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);*/
         return rootView;
     }
 

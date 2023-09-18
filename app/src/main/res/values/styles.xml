@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTabLayoutText" parent="Widget.Design.TabLayout">
+        <item name="android:textSize">20sp</item> <!-- 修改字体大小 -->
+        <item name="android:textColor">#ffffff</item> <!-- 修改字体颜色 -->
+        <!-- 可以添加其他文本样式属性，例如字体、样式、字重等 -->
+    </style>
+</resources>

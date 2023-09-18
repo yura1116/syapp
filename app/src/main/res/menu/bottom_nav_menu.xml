@@ -17,7 +17,7 @@
         android:title="@string/title_shiting" />
     <item
         android:id="@+id/navigation_myself"
-        android:icon="@drawable/ic_notifications_black_24dp"
+        android:icon="@drawable/icon_person_24"
         android:title="@string/title_myself" />
 
 </menu>

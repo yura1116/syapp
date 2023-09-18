@@ -20,6 +20,11 @@
     <fragment
         android:id="@+id/navigation_shiting"
         android:name="com.example.syapp.ui.shiting.ShitingFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_shiting"
         tools:layout="@layout/fragment_shiting" />
+    <fragment
+        android:id="@+id/navigation_myself"
+        android:name="com.example.syapp.ui.my.MyselfFragment"
+        android:label="@string/title_myself"
+        tools:layout="@layout/fragment_myself" />
 </navigation>

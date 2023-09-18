@@ -2,6 +2,7 @@
     <string name="app_name">云筑亮声</string>
     <string name="title_home">首页</string>
     <string name="title_dashboard">配型</string>
-    <string name="title_notifications">试听声音</string>
+    <string name="title_shiting">试听声音</string>
+    <string name="title_myself">我的</string>
     <string name="ljqd">立即启动</string>
 </resources>

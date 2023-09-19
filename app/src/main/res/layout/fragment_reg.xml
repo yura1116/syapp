@@ -106,8 +106,21 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"/>
 
+            <EditText
+                android:id="@+id/zsbh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="助手编号"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
             <Button
-                android:id="@+id/button_login"
+                android:id="@+id/button_reg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
